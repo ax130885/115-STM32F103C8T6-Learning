@@ -3,7 +3,7 @@
 #include "stm32f10x_conf.h"
 #endif
 
-// 使用位元操作
+// 使用暫存器操作 (下面有使用標準外設庫操作的版本)
 int main(void)
 {
 	// 目的: 點燈
@@ -35,7 +35,7 @@ int main(void)
 }
 
 // 使用標準外設庫實作
-int main(void)
+int main2(void)
 {
 	// Step1. 打開GPIOC的時脈/電源(RCC)
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); // 變更哪一組的RCC, 開啟/關閉
