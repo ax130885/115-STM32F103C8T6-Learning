@@ -9,7 +9,6 @@
 *.sct
 *.crf
 *.d
-*.htm
 *.lst
 *.map
 *.hex
