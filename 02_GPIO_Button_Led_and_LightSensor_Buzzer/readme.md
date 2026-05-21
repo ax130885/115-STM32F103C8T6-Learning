@@ -6,11 +6,11 @@
 使用 Doxygen 風格撰寫程式碼註解
 
 # 外設接線
-- 微動1: GPIOB_Pin_14
-- 微動2: GPIOB_Pin_12
+- 微動1: GPIOB_Pin_14 -> 接地
+- 微動2: GPIOB_Pin_12 -> 接地
 
-- Led1: GPIOA_Pin_1
-- Led2: GPIOA_Pin_2
+- Led1: GPIOA_Pin_1 -> 接VCC
+- Led2: GPIOA_Pin_2 -> 接VCC
 
-- 光感測器: GPIOB_Pin_1
+- 光感測器DO: GPIOB_Pin_1
 - 有緣蜂鳴器: GPIOB_Pin_11
