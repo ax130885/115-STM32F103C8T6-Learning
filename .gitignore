@@ -1,0 +1,22 @@
+*/.vscode
+*/DebugConfig
+*/Listings
+*/Objects
+
+# Keil / uVision build artifacts
+*.axf
+*.lnp
+*.sct
+*.crf
+*.d
+*.htm
+*.lst
+*.map
+*.hex
+
+# Event recorder component (auto-generated)
+*.scvd
+
+# common backup/temp
+*~
+*.bak
