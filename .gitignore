@@ -12,6 +12,8 @@
 *.lst
 *.map
 *.hex
+*.uvoptx
+*.uvguix.*
 
 # Event recorder component (auto-generated)
 *.scvd
