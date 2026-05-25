@@ -5,8 +5,8 @@
  * SCL: GPIOC_Pin_13
  * SDA: GPIOC_Pin_14
  */
-#define OLED_W_SCL(x) GPIO_WriteBit(GPIOC, GPIO_Pin_13, (BitAction)(x))
-#define OLED_W_SDA(x) GPIO_WriteBit(GPIOC, GPIO_Pin_14, (BitAction)(x))
+#define OLED_W_SCL(x) GPIO_WriteBit(GPIOC, GPIO_Pin_14, (BitAction)(x))
+#define OLED_W_SDA(x) GPIO_WriteBit(GPIOC, GPIO_Pin_15, (BitAction)(x))
 
 /*初始化*/
 void OLED_I2C_Init(void)
